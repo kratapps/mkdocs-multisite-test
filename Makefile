@@ -1,6 +1,3 @@
-serve:
-	python3 -m mkdocs serve
-	
 build:
 	rm -rf ./docs
 	python3 -m mkdocs build --site-dir ../docs/ --config-file site-nav/mkdocs.yml
