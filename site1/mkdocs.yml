@@ -1,0 +1,21 @@
+site_name: site 1
+site_url: https://mkdocs-multisite-test.kratapps.com/site1/
+
+# Theme configuration
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: white
+      accent: custom
+  features:
+    - navigation.tabs
+
+# Navigation configuration
+nav:
+  - Site 1: index.md
+  - Docs:
+    - Hello 1: docs/hello-1.md
+    - Hello 2: docs/hello-1.md
+      
+
